@@ -16,6 +16,7 @@ body {
 }
 
 .nav-header {
+  position: relative;
   min-height: 10vh;
   color: white;
   font-size: 1rem;
@@ -25,6 +26,7 @@ body {
   width: 80%;
   margin: auto;
   padding: 2rem 0rem;
+  z-index: 2;
 }
 
 .line1,
@@ -209,4 +211,8 @@ body {
 
 .scrollmagic-pin-spacer {
   position: static !important;
+}
+
+body.hide {
+  overflow: hidden;
 }
